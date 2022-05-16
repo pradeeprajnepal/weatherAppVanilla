@@ -10,4 +10,4 @@
 
 ## Preview
 
-[![Image Alt](preview image path)](https://pradeeprajnepal.github.io/weatherAppVanilla/)
+[![Image Alt](/weatherApp.png)](https://pradeeprajnepal.github.io/weatherAppVanilla/)

@@ -4,8 +4,8 @@ let weather={
         fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid="+ this.apiKey)
         .then((res)=>{
             if(!res.ok){
-                alert("No weather found.");
-                throw new Error("No weather found");
+                alert("No weather found. Please add your API key.");
+                throw new Error("No weather found. Please add your API key.");
             }
             return res.json();
         })
